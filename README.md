@@ -1,1 +1,1 @@
-# HamsterInfo.github.io
+# This is an informational website about hamsters.
