@@ -1,9 +1,81 @@
-<!doctype HTML>
-<html>
-  <head>
-    <style></style>
-  </head>
-  <body>
-    <h1>Hamster</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .content-section {
+            margin: 2rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Informational Website about Hamsters!</h1>
+        <p>Your source for valuable tips and tricks for takign care of your furry friend.</p>
+    </header>
+
+    <div class="container">
+        <div class="button-group">
+            <a href="#about" class="button">About Us</a>
+            <a href="#services" class="button">Services</a>
+            <a href="#contact" class="button">Contact</a>
+            <a href="#resources" class="button">Resources</a>
+        </div>
+
+        <div class="content-section">
+            <h2>Featured Content</h2>
+            <p>Discover the latest updates and information about our services.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Our Mission</h2>
+            <p>We strive to provide accurate and helpful information to our users.</p>
+        </div>
+    </div>
+</body>
 </html>
